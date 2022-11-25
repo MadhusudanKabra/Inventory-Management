@@ -1,0 +1,42 @@
+/* CSS RESET */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Heading */
+.header{
+    text-align: center;
+    background-color: aqua;
+    padding: 30px;
+    font-size: 15px;
+}
+
+/* Inventory Form */
+#InventoryForm{
+    padding-top: 60px;
+}
+
+#invent{
+        margin: auto;
+        padding: 20px;
+        width: 60vw;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 50px;
+} 
+
+.inputform{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.btn{
+    text-align: center;
+}
+
+
+
+

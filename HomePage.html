@@ -1,0 +1,78 @@
+
+
+
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>My Inventory</h1>
+    </div>
+    
+
+    <div id="InventoryForm">
+        <div id="invent">
+            <section class="inputform" id="input1" >
+                <div>
+                    <h4>ProductName</h4>
+                    <input type="text" name="ItemName" id="product">
+                </div>
+                <div>
+                    <h4>Price</h4>
+                    <input type="text" value="0" name="ItemPrice" id="price" onchange="getTotal()"> 
+                </div>
+            </section>
+            <section class="input">
+                <div>
+                    <h4>Quantity</h4>
+                    <input type="text" value="0" name="ItemQty" id="quantity" onchange="getTotal()">
+                </div>
+                <div>
+                    <h4>Total</h4>
+                    <input type="text" name="ItemTotal" readonly value="0" id="total">
+                </div>
+            </section>
+            <div class="btn">
+                <button onclick="addInventory()">Add Record</button>
+            </div> 
+        </div>
+    </div>
+
+
+    <div id="InventoryForm">
+        
+        <section id="input1">
+            <div>
+                <h4>ProductName</h4>
+                <input type="text" name="ItemName" id="Product">
+            </div>
+            <div>
+                <h4>Quantity</h4>
+                <input type="text" name="ItemQty" id="Quantity">
+            </div>
+            
+        </section>
+
+        <section id="input2">
+            <div>
+                <h4>Price</h4>
+                <input type="text" name="ItemName" id="Product">
+            </div>
+            <div>
+                <h4>Total</h4>
+                <input type="text" name="ItemQty" id="Quantity">
+            </div>           
+        </section>
+    </div>
+
+
+</body>
+</html>
